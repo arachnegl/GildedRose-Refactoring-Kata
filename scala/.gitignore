@@ -17,3 +17,8 @@
 .classpath
 
 target/
+
+# nvim
+.metals
+.bloop
+project/metals.sbt

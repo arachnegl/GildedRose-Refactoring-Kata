@@ -2,6 +2,9 @@ package com.gildedrose
 
 class GildedRose(val items: Array[Item]) {
 
+  def updateQualityNew() {
+    items.foreach({ i => i.update()})
+  }
 
   def updateQuality() {
     for (i <- 0 until items.length) {
